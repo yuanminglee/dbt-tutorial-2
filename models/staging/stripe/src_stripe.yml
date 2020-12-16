@@ -16,4 +16,4 @@ sources:
               description: Primary key for payments
               tests:
                 - unique
-                - not null
+                - not_null
