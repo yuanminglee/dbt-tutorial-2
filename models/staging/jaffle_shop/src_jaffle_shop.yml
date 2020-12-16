@@ -10,9 +10,9 @@ sources:
           columns:
             - name: id
               description: Primary key for customers
-              test:
+              tests:
                 - unique
-                - not null
+                - not_null
         - name: orders
           description: Raw orders data
           loaded_at_field: _etl_loaded_at
@@ -22,6 +22,6 @@ sources:
           columns:
             - name: id
               description: Primary key for orders
-              test:
+              tests:
                 - unique
-                - not null
+                - not_null
